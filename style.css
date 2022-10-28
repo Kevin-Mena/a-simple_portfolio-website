@@ -1,9 +1,9 @@
 body {
-  background-image: url('images/background.svg');
+  background-image: url('images/headershape.svg');
 }
 
 .logo {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -20,6 +20,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .menu {
@@ -30,10 +31,10 @@ body {
 .main_header {
   width: 327px;
   height: 150px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;;
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
@@ -41,6 +42,9 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  padding-top: 100px;
+  padding-left: 20px;
+  
 }
 
 .about_career {
@@ -49,12 +53,16 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   color: #344563;
   flex: none;
   order: 1;
   flex-grow: 0;
+  padding-top: 0px;
+  padding-left: 20px;
+
+  
 }
 
 .connect_section {
@@ -68,13 +76,22 @@ body {
   color: #7f8cff;
   flex: none;
   order: 0;
+  padding-left: 20px;
 }
 
 .list {
-  list-style: none;
   display: flex;
-  padding: 0;
-  gap: 4px;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+width: 117px;
+height: 24px;
+flex: none;
+order: 2;
+flex-grow: 0;
+list-style: none;
+padding-left: 20px;
 }
 
 .list-item {
