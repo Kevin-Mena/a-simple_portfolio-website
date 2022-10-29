@@ -296,7 +296,7 @@ body {
 }
 
 .lang {
-  font-weight: 520;
+  font-weight: 510;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -368,4 +368,10 @@ body {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   display: inline-block;
+}
+
+.img,
+.list-lang {
+  float: left;
+  display: grid;
 }
