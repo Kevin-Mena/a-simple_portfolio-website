@@ -79,19 +79,20 @@ body {
 .list-item {
   padding-left: 0;
 }
+
 .btnr {
-border: 1px solid #396DF2;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 24px;
-color: #396DF2;
-border-radius: 6px;
+  border: 1px solid #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  border-radius: 6px;
 }
 
 .list-skill {
-  list-style:none;
+  list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -100,19 +101,21 @@ border-radius: 6px;
   font-size: 20px;
   line-height: 24px;
 }
+
 .lang {
   font-weight: 550;
   font-family: 'Poppins', sans-serif;
 }
+
 .list-lang {
   display: flex;
   flex-direction: row;
-  color:  #253858;
+  color: #253858;
   font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .img1 {
