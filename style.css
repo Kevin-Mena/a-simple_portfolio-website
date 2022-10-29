@@ -347,3 +347,19 @@ body {
 .img2 {
   float: right;
 }
+.header_contact {
+  color: white;
+}
+.para-contact {
+  width: 327px;
+  height: 144px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color:whitesmoke;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
