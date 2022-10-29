@@ -1,5 +1,5 @@
 body {
-  background-image: url('images/headershape.svg');
+  background-image: url('images/contact.png');
 }
 
 .logo {
@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
 }
 
-.main_header {
+.header_contact {
   width: 327px;
   height: 150px;
   font-family: 'Poppins', sans-serif;
@@ -37,7 +37,7 @@ body {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172b4d;
+  color:whitesmoke;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -45,7 +45,7 @@ body {
   padding-left: 20px;
 }
 
-.about_career {
+.para-contact {
   width: 327px;
   height: 146px;
   font-family: 'Poppins', sans-serif;
@@ -53,7 +53,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color: #344563;
+  color:whitesmoke;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -92,4 +92,17 @@ body {
 
 .list-item {
   padding-left: 0;
+}
+.contact-form {
+display: block;
+}
+.btnt {
+border: 1px solid transparent;
+border-radius: 6px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 24px;
+color: #6070FF;
 }
