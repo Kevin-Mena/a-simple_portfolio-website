@@ -327,7 +327,7 @@ body {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172b4d;
+  color: white;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -347,9 +347,7 @@ body {
 .img2 {
   float: right;
 }
-.header_contact {
-  color: white;
-}
+
 .para-contact {
   width: 327px;
   height: 144px;
@@ -358,8 +356,16 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color:whitesmoke;
+  color: whitesmoke;
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+
+.btn1:hover {
+  background-color: #6070ff;
+  color: white;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  display: inline-block;
 }
